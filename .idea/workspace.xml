@@ -1,10 +1,536 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="790df684-abc6-4d99-a22a-92595bf5bd08" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/App.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/Repository/ExcursionDBRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/Repository/ReservationDBRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/Repository/UserDBRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/C_Sharp.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/C_Sharp.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/C_Sharp.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Data.Sqlite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Configuration.Abstractions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Configuration.Binder.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Configuration.Binder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Configuration.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Configuration.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.DependencyInjection.Abstractions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Logging.Abstractions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Logging.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Options.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Microsoft.Extensions.Primitives.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/Mono.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/SQLitePCLRaw.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/SQLitePCLRaw.nativelibrary.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/System.ComponentModel.Annotations.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/System.Configuration.ConfigurationManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/System.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/System.Security.Permissions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/log4net.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/log4net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/log4net.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/myapp.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/x64/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/bin/Debug/x86/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/domain/validators/ExcursionValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/domain/validators/IValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/domain/validators/ReservationValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/domain/validators/UserValidator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/log4net.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/obj/Debug/C_Sharp.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/obj/Debug/C_Sharp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/obj/Debug/C_Sharp.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/obj/Debug/C_Sharp.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/obj/Debug/C_Sharp.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/packages.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/utils/JDBCManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/ConnectionUtils/ConnectionFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/ConnectionUtils/ConnectionUtils.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/ConnectionUtils/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/ConnectionUtils/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/ConnectionUtils/SqliteConnectionFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/ConnectionUtils/obj/Debug/ConnectionUtils.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/ConnectionUtils/obj/Debug/ConnectionUtils.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Microsoft.Data.Sqlite.6.0.0-preview.2.21154.2/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Microsoft.Data.Sqlite.6.0.0-preview.2.21154.2/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Microsoft.Data.Sqlite.6.0.0-preview.2.21154.2/Microsoft.Data.Sqlite.6.0.0-preview.2.21154.2.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Microsoft.Data.Sqlite.6.0.0-preview.2.21154.2/lib/netstandard2.0/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Microsoft.Data.Sqlite.Core.6.0.0-preview.2.21154.2/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Microsoft.Data.Sqlite.Core.6.0.0-preview.2.21154.2/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Microsoft.Data.Sqlite.Core.6.0.0-preview.2.21154.2/Microsoft.Data.Sqlite.Core.6.0.0-preview.2.21154.2.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Microsoft.Data.Sqlite.Core.6.0.0-preview.2.21154.2/lib/net5.0/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Microsoft.Data.Sqlite.Core.6.0.0-preview.2.21154.2/lib/net5.0/Microsoft.Data.Sqlite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Microsoft.Data.Sqlite.Core.6.0.0-preview.2.21154.2/lib/netstandard2.0/Microsoft.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Microsoft.Data.Sqlite.Core.6.0.0-preview.2.21154.2/lib/netstandard2.0/Microsoft.Data.Sqlite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Mono.Data.Sqlite.1.0.61/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Mono.Data.Sqlite.1.0.61/Mono.Data.Sqlite.1.0.61.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/Mono.Data.Sqlite.1.0.61/lib/net40/Mono.Data.Sqlite.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLite.3.13.0/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLite.3.13.0/SQLite.3.13.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLite.3.13.0/build/net45/SQLite.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLite.3.13.0/lib/netstandard1.0/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLite.3.13.0/runtimes/linux-x64/native/libsqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLite.3.13.0/runtimes/osx-x64/native/libsqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLite.3.13.0/runtimes/win10-arm/nativeassets/uap10.0/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLite.3.13.0/runtimes/win10-x64/nativeassets/uap10.0/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLite.3.13.0/runtimes/win10-x86/nativeassets/uap10.0/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLite.3.13.0/runtimes/win7-x64/native/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLite.3.13.0/runtimes/win7-x86/native/sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLite.3.13.0/sqlite-version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.bundle_e_sqlite3.2.0.5-pre20210119130047/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.bundle_e_sqlite3.2.0.5-pre20210119130047/SQLitePCLRaw.bundle_e_sqlite3.2.0.5-pre20210119130047.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.bundle_e_sqlite3.2.0.5-pre20210119130047/lib/Xamarin.iOS10/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.bundle_e_sqlite3.2.0.5-pre20210119130047/lib/Xamarin.tvOS10/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.bundle_e_sqlite3.2.0.5-pre20210119130047/lib/net461/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.bundle_e_sqlite3.2.0.5-pre20210119130047/lib/net461/SQLitePCLRaw.nativelibrary.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.bundle_e_sqlite3.2.0.5-pre20210119130047/lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.bundle_e_sqlite3.2.0.5-pre20210119130047/lib/netcoreapp3.1/SQLitePCLRaw.nativelibrary.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.bundle_e_sqlite3.2.0.5-pre20210119130047/lib/netstandard2.0/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.core.2.0.5-pre20210119130047/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.core.2.0.5-pre20210119130047/SQLitePCLRaw.core.2.0.5-pre20210119130047.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.core.2.0.5-pre20210119130047/lib/netstandard2.0/SQLitePCLRaw.core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/build/net461/SQLitePCLRaw.lib.e_sqlite3.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/lib/net461/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/lib/netstandard2.0/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/alpine-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/linux-arm/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/linux-arm64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/linux-armel/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/linux-mips64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/linux-musl-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/linux-x64/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/linux-x86/native/libe_sqlite3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/osx-x64/native/libe_sqlite3.dylib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/win-arm64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/win10-arm/nativeassets/uap10.0/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/win10-arm64/nativeassets/uap10.0/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/win10-x64/nativeassets/uap10.0/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047/runtimes/win10-x86/nativeassets/uap10.0/e_sqlite3.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.provider.dynamic_cdecl.2.0.5-pre20210119130047/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.provider.dynamic_cdecl.2.0.5-pre20210119130047/SQLitePCLRaw.provider.dynamic_cdecl.2.0.5-pre20210119130047.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/SQLitePCLRaw.provider.dynamic_cdecl.2.0.5-pre20210119130047/lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/LICENSE.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/System.Buffers.4.5.1.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/lib/net461/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/lib/net461/System.Buffers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/lib/netcoreapp2.0/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/lib/netstandard1.1/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/lib/netstandard1.1/System.Buffers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/lib/netstandard2.0/System.Buffers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/lib/uap10.0.16299/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/ref/net45/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/ref/net45/System.Buffers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/ref/netcoreapp2.0/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/ref/netstandard1.1/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/ref/netstandard1.1/System.Buffers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/ref/netstandard2.0/System.Buffers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/ref/netstandard2.0/System.Buffers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/ref/uap10.0.16299/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/useSharedDesignerContext.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Buffers.4.5.1/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/LICENSE.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/lib/net461/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/lib/net461/System.Configuration.ConfigurationManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/lib/netstandard2.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/lib/netstandard2.0/System.Configuration.ConfigurationManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/ref/net461/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/ref/net461/System.Configuration.ConfigurationManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/ref/netstandard2.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Configuration.ConfigurationManager.6.0.0-preview.2.21154.6/ref/netstandard2.0/System.Configuration.ConfigurationManager.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/LICENSE.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/System.Memory.4.5.4.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/lib/net461/System.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/lib/net461/System.Memory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/lib/netcoreapp2.1/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/lib/netstandard1.1/System.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/lib/netstandard1.1/System.Memory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/lib/netstandard2.0/System.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/lib/netstandard2.0/System.Memory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/ref/netcoreapp2.1/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/useSharedDesignerContext.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Memory.4.5.4/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/LICENSE.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/System.Numerics.Vectors.4.5.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/MonoAndroid10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/MonoTouch10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/net46/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/net46/System.Numerics.Vectors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/netcoreapp2.0/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/netstandard1.0/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/netstandard1.0/System.Numerics.Vectors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/netstandard2.0/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/netstandard2.0/System.Numerics.Vectors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/uap10.0.16299/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/xamarinios10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/xamarinmac20/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/xamarintvos10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/lib/xamarinwatchos10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/MonoAndroid10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/MonoTouch10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/net45/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/net45/System.Numerics.Vectors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/net46/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/net46/System.Numerics.Vectors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/netcoreapp2.0/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/netstandard1.0/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/netstandard1.0/System.Numerics.Vectors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/netstandard2.0/System.Numerics.Vectors.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/netstandard2.0/System.Numerics.Vectors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/uap10.0.16299/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/xamarinios10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/xamarinmac20/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/xamarintvos10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/ref/xamarinwatchos10/_._" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/useSharedDesignerContext.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Numerics.Vectors.4.5.0/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/LICENSE.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/System.Runtime.CompilerServices.Unsafe.5.0.0.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/net45/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/net45/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/net461/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/net461/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/useSharedDesignerContext.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Runtime.CompilerServices.Unsafe.5.0.0/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/LICENSE.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/System.Security.AccessControl.6.0.0-preview.2.21154.6.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/lib/net46/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/lib/net461/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/lib/net461/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/lib/netstandard1.3/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/lib/netstandard2.0/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/lib/netstandard2.0/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/net46/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/net461/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/net461/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard1.3/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard1.3/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard1.3/de/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard1.3/es/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard1.3/fr/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard1.3/it/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard1.3/ja/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard1.3/ko/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard1.3/ru/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard1.3/zh-hans/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard1.3/zh-hant/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard2.0/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/ref/netstandard2.0/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/runtimes/win/lib/net46/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/runtimes/win/lib/net461/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/runtimes/win/lib/net461/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/runtimes/win/lib/netstandard1.3/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/runtimes/win/lib/netstandard2.0/System.Security.AccessControl.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.AccessControl.6.0.0-preview.2.21154.6/runtimes/win/lib/netstandard2.0/System.Security.AccessControl.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/LICENSE.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/System.Security.Permissions.6.0.0-preview.2.21154.6.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/lib/net461/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/lib/net461/System.Security.Permissions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/lib/net5.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/lib/net5.0/System.Security.Permissions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/lib/netcoreapp3.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/lib/netcoreapp3.0/System.Security.Permissions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/lib/netstandard2.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/lib/netstandard2.0/System.Security.Permissions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/ref/net461/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/ref/net461/System.Security.Permissions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/ref/net5.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/ref/net5.0/System.Security.Permissions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/ref/netcoreapp3.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/ref/netcoreapp3.0/System.Security.Permissions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/ref/netstandard2.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Permissions.6.0.0-preview.2.21154.6/ref/netstandard2.0/System.Security.Permissions.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/Icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/LICENSE.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/System.Security.Principal.Windows.6.0.0-preview.2.21154.6.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/THIRD-PARTY-NOTICES.TXT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/lib/net46/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/lib/net461/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/lib/net461/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/lib/netstandard1.3/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/lib/netstandard2.0/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/lib/netstandard2.0/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/net46/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/net461/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/net461/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netcoreapp3.0/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netcoreapp3.0/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard1.3/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard1.3/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard1.3/de/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard1.3/es/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard1.3/fr/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard1.3/it/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard1.3/ja/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard1.3/ko/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard1.3/ru/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard1.3/zh-hans/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard1.3/zh-hant/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard2.0/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/ref/netstandard2.0/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/runtimes/unix/lib/netstandard2.0/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/runtimes/unix/lib/netstandard2.0/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/runtimes/win/lib/net46/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/runtimes/win/lib/net461/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/runtimes/win/lib/net461/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/runtimes/win/lib/netcoreapp2.1/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/runtimes/win/lib/netstandard1.3/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/runtimes/win/lib/netstandard2.0/System.Security.Principal.Windows.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/System.Security.Principal.Windows.6.0.0-preview.2.21154.6/runtimes/win/lib/netstandard2.0/System.Security.Principal.Windows.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/net20/log4net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/net20/log4net.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/net35-client/log4net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/net35-client/log4net.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/net35/log4net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/net35/log4net.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/net40-client/log4net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/net40-client/log4net.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/net40/log4net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/net40/log4net.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/net45/log4net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/net45/log4net.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/netstandard1.3/log4net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/netstandard1.3/log4net.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/netstandard2.0/log4net.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/lib/netstandard2.0/log4net.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/log4net.2.0.12.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C_Sharp/packages/log4net.2.0.12/package-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Sharp/.idea/.idea.C_Sharp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C_Sharp/.idea/.idea.C_Sharp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Sharp/.idea/.idea.C_Sharp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/C_Sharp/.idea/.idea.C_Sharp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Sharp/C_Sharp/C_Sharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/C_Sharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Sharp/C_Sharp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Sharp/C_Sharp/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Sharp/C_Sharp/Repository/IRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/Repository/IRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Sharp/C_Sharp/domain/Excursion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/domain/Excursion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C_Sharp/C_Sharp/obj/Debug/C_Sharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/C_Sharp/C_Sharp/obj/Debug/C_Sharp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/6.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/6.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/6.5/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/6.5/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/main/java/domain/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/main/java/domain/Excursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/main/java/domain/Reservation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/main/java/domain/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/main/java/repository/CrudRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/main/java/repository/ExcursionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/main/java/repository/ReservationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/main/java/repository/UserRepository.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Java" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProjectId" id="1q3u6e17IbELcgCpxS0JFWSvoux" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="MPP_AgentieTurism [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MPP_AgentieTurism [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="790df684-abc6-4d99-a22a-92595bf5bd08" name="Default Changelist" comment="" />
+      <created>1616320425139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616320425139</updated>
+      <workItem from="1616320427801" duration="3000" />
+      <workItem from="1616679373118" duration="473000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="634" y="154" key="FileChooserDialogImpl" timestamp="1616679818781">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="634" y="154" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1616679818781" />
+    <state width="1853" height="250" key="GridCell.Tab.0.bottom" timestamp="1616679861476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1616679861476" />
+    <state width="1853" height="250" key="GridCell.Tab.0.center" timestamp="1616679861476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1616679861476" />
+    <state width="1853" height="250" key="GridCell.Tab.0.left" timestamp="1616679861476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1616679861476" />
+    <state width="1853" height="250" key="GridCell.Tab.0.right" timestamp="1616679861476">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1853" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1616679861476" />
   </component>
 </project>

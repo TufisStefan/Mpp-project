@@ -7,12 +7,12 @@ namespace C_Sharp.Repository
     {
         IEnumerable<E> FindAll();
 
-        E Save(E entity);
+        void Save(E entity);
 
         E FindOne(ID id);
 
-        E Delete(ID id);
+        void Delete(ID id);
 
-        E Update(E entity);
+        void Update(ID id, E entity);
     }
 }

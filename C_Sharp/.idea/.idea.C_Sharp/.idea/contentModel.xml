@@ -3,8 +3,12 @@
   <component name="ContentModelStore">
     <e p="C:\Users\asus\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
     <e p="C:\Users\asus\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_C_Sharp.686177991.00" t="ExcludeRecursive" />
+    <e p="C:\Users\asus\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\asus\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\asus\AppData\Roaming\JetBrains\Rider2020.3\scratches" t="IncludeRecursive" />
     <e p="C:\Users\asus\IdeaProjects\MPP_AgentieTurism\C_Sharp" t="IncludeFlat">
       <e p="C_Sharp" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="C_Sharp.csproj" t="IncludeRecursive" />
         <e p="domain" t="Include">
@@ -12,21 +16,57 @@
           <e p="Excursion.cs" t="Include" />
           <e p="Reservation.cs" t="Include" />
           <e p="User.cs" t="Include" />
+          <e p="validators" t="Include">
+            <e p="ExcursionValidator.cs" t="Include" />
+            <e p="IValidator.cs" t="Include" />
+            <e p="ReservationValidator.cs" t="Include" />
+            <e p="UserValidator.cs" t="Include" />
+          </e>
         </e>
+        <e p="log4net.config" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
         </e>
         <e p="Repository" t="Include">
+          <e p="ExcursionDBRepository.cs" t="Include" />
           <e p="IExcursionRepository.cs" t="Include" />
           <e p="IRepository.cs" t="Include" />
           <e p="IReservationRepository.cs" t="Include" />
           <e p="IUserRepository.cs" t="Include" />
+          <e p="ReservationDBRepository.cs" t="Include" />
+          <e p="UserDBRepository.cs" t="Include" />
         </e>
+        <e p="utils" t="Include">
+          <e p="JDBCManager.cs" t="Include" />
+        </e>
+        <e p="x64" t="Include" />
+        <e p="x86" t="Include" />
       </e>
       <e p="C_Sharp.sln" t="IncludeFlat" />
-      <e p="packages" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive">
+        <e p="SQLite.3.13.0\runtimes\win7-x64\native\sqlite3.dll" t="Include" />
+        <e p="SQLite.3.13.0\runtimes\win7-x86\native\sqlite3.dll" t="Include" />
+        <e p="SQLitePCLRaw.lib.e_sqlite3.2.0.5-pre20210119130047\runtimes" t="Include">
+          <e p="win-arm" t="Include">
+            <e p="native" t="Include">
+              <e p="e_sqlite3.dll" t="Include" />
+            </e>
+          </e>
+          <e p="win-x64" t="Include">
+            <e p="native" t="Include">
+              <e p="e_sqlite3.dll" t="Include" />
+            </e>
+          </e>
+          <e p="win-x86" t="Include">
+            <e p="native" t="Include">
+              <e p="e_sqlite3.dll" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
     </e>
   </component>
 </project>
