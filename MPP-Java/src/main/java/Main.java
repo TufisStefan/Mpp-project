@@ -1,4 +1,14 @@
+import controller.IController;
+import domain.Excursion;
+import domain.Reservation;
+import domain.User;
+import domain.validators.ExcursionValidator;
+import domain.validators.ReservationValidator;
+import domain.validators.UserValidator;
+import domain.validators.Validator;
 import repository.*;
+import services.Services;
+import services.TourismAgencyServices;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -13,23 +23,15 @@ public class Main {
             System.out.println("Cannot find bd_config "+e);
         }
 
-        UserRepository userRepository = new UserDBRepository(props);
-        ExcursionRepository excursionRepository = new ExcursionDBRepository(props);
-        ReservationRepository reservationRepository = new ReservationDBRepository(props);
 
-        //reservationRepository.save(new Reservation("John Smith", 123456789L, 2L, 8L));
-        //excursionRepository.save(new Excursion("Eiffel Tower", "Christian Tour", 500, LocalTime.of(20,30,0), 50L ));
-        //Excursion excursion = excursionRepository.findOne(9L);
-        //System.out.println(excursion);
-        //excursionRepository.delete(6L);
-        //excursionRepository.delete(7L);
-        //System.out.println(excursionRepository.findAll());
-        /*userRepository.update(2L,new User("mihai","parola"));
-        List<User> users = userRepository.findAll();
-        for (User user:users){
-            System.out.println(user.getUsername());
-        }*/
+        UserRepository userRepository = new UserDBRepository(props, new UserValidator());
+        ExcursionRepository excursionRepository = new ExcursionDBRepository(props, new ExcursionValidator());
+        ReservationRepository reservationRepository = new ReservationDBRepository(props, new ReservationValidator());
 
+        Services services = new TourismAgencyServices(userRepository, excursionRepository, reservationRepository);
+        MainFX mainFX = MainFX.getInstance(services);
+
+        mainFX.run();
 
     }
 }

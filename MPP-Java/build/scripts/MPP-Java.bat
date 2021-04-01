@@ -82,7 +82,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\MPP-Java-1.0-SNAPSHOT.jar;%APP_HOME%\lib\log4j-core-2.14.0.jar;%APP_HOME%\lib\log4j-api-2.14.0.jar;%APP_HOME%\lib\sqlite-jdbc-3.34.0.jar
+set CLASSPATH=%APP_HOME%\lib\MPP-Java-1.0-SNAPSHOT.jar;%APP_HOME%\lib\log4j-core-2.14.0.jar;%APP_HOME%\lib\log4j-api-2.14.0.jar;%APP_HOME%\lib\sqlite-jdbc-3.34.0.jar;%APP_HOME%\lib\javafx-fxml-13-win.jar;%APP_HOME%\lib\javafx-controls-13-win.jar;%APP_HOME%\lib\javafx-controls-13.jar;%APP_HOME%\lib\javafx-graphics-13-win.jar;%APP_HOME%\lib\javafx-graphics-13.jar;%APP_HOME%\lib\javafx-base-13-win.jar;%APP_HOME%\lib\javafx-base-13.jar
 
 @rem Execute MPP-Java
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %MPP_JAVA_OPTS%  -classpath "%CLASSPATH%" Main %CMD_LINE_ARGS%

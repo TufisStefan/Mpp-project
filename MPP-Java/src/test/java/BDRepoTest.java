@@ -1,6 +1,10 @@
 import domain.Excursion;
 import domain.Reservation;
 import domain.User;
+import domain.validators.ExcursionValidator;
+import domain.validators.ReservationValidator;
+import domain.validators.UserValidator;
+import domain.validators.ValidationException;
 import org.junit.Assert;
 import org.junit.Test;
 import repository.*;
@@ -15,16 +19,16 @@ import java.util.Properties;
 
 public class BDRepoTest {
     @Test
-    public void testBD(){
+    public void testBD() throws ValidationException {
         Properties props=new Properties();
         try {
             props.load(new FileReader("test_config.properties"));
         } catch (IOException e) {
             System.out.println("Cannot find bd_config "+e);
         }
-        ExcursionRepository excursionRepository = new ExcursionDBRepository(props);
-        UserRepository userRepository = new UserDBRepository(props);
-        ReservationRepository reservationRepository = new ReservationDBRepository(props);
+        ExcursionRepository excursionRepository = new ExcursionDBRepository(props, new ExcursionValidator());
+        UserRepository userRepository = new UserDBRepository(props, new UserValidator());
+        ReservationRepository reservationRepository = new ReservationDBRepository(props, new ReservationValidator());
 
         resetIncrement(props, "Users");
         resetIncrement(props, "Excursions");

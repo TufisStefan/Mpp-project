@@ -2,6 +2,9 @@ package repository;
 
 
 import domain.Excursion;
+import domain.validators.ExcursionValidator;
+import domain.validators.ValidationException;
+import domain.validators.Validator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -17,12 +20,14 @@ import java.util.Properties;
 
 public class ExcursionDBRepository implements ExcursionRepository{
 
-    private JdbcUtils dbUtils;
+    private final JdbcUtils dbUtils;
     private static final Logger logger= LogManager.getLogger();
+    private static Validator<Excursion> validator;
 
-    public ExcursionDBRepository(Properties props) {
+    public ExcursionDBRepository(Properties props, Validator<Excursion> validator) {
         logger.info("Initializing ExcursionDBRepository with properties: {} ",props);
         dbUtils=new JdbcUtils(props);
+        ExcursionDBRepository.validator = validator;
     }
 
     @Override
@@ -110,8 +115,15 @@ public class ExcursionDBRepository implements ExcursionRepository{
     }
 
     @Override
-    public void save(Excursion entity) {
+    public void save(Excursion entity) throws ValidationException {
         logger.traceEntry("Saving excursion {}", entity);
+
+        try{
+            validator.validate(entity);
+        }
+        catch (ValidationException e) {
+            throw e;
+        }
         Connection con = dbUtils.getConnection();
         try(PreparedStatement preparedStatement = con.prepareStatement("insert into Excursions(company, price, start_time, seats, objective) values (?,?,time(?),?,?)")){
             preparedStatement.setString(1, entity.getCompany());
@@ -144,8 +156,16 @@ public class ExcursionDBRepository implements ExcursionRepository{
     }
 
     @Override
-    public void update(Long aLong, Excursion entity) {
+    public void update(Long aLong, Excursion entity) throws ValidationException {
         logger.traceEntry("update excursion {}", entity);
+
+        try{
+            validator.validate(entity);
+        }
+        catch (ValidationException e) {
+            throw e;
+        }
+
         Connection con = dbUtils.getConnection();
         try(PreparedStatement preparedStatement = con.prepareStatement("update Excursions set company = ?, price = ?, start_time = time(?), seats = ?, objective = ? where id = ?;")){
             preparedStatement.setString(1, entity.getCompany());

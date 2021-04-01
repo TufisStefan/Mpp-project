@@ -1,6 +1,7 @@
 package repository;
 
 import domain.Entity;
+import domain.validators.ValidationException;
 
 import java.util.List;
 
@@ -28,7 +29,7 @@ public interface CrudRepository <ID, E extends Entity<ID>>{
      * @throws IllegalArgumentException
      *             if the given entity is null.
      */
-    void save(E entity);
+    void save(E entity) throws ValidationException;
 
 
     /**
@@ -50,5 +51,5 @@ public interface CrudRepository <ID, E extends Entity<ID>>{
      * @throws IllegalArgumentException
      *             if the given entity is null.
      */
-    void update(ID id,E entity);
+    void update(ID id,E entity) throws ValidationException;
 }

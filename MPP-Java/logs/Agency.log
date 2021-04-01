@@ -263,3 +263,629 @@
 21 Mar 2021 12:16:08,556 TRACE repository.JdbcUtils 47 getConnection - Enter
 21 Mar 2021 12:16:08,556 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e32319c)
 21 Mar 2021 12:16:08,557 TRACE repository.ExcursionDBRepository 107 findAll - Exit with([])
+25 Mar 2021 17:27:29,600 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:27:29,615 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:27:29,617 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:29:33,662 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:29:33,685 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:29:33,687 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:35:32,945 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:35:32,950 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:35:32,952 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:36:48,607 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:36:48,612 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:36:48,613 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:37:44,701 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:37:44,717 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:37:44,719 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:41:13,161 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:41:13,168 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:41:13,169 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:43:34,816 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:43:34,854 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:43:34,868 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:47:32,512 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:47:32,518 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:47:32,520 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:48:46,471 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:48:46,477 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:48:46,479 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:52:07,908 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:52:07,916 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+25 Mar 2021 17:52:07,918 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:09:34,398 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:09:34,454 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:09:34,476 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:13:41,971 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:13:42,017 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:13:42,035 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:17:34,654 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:17:34,660 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:17:34,662 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:20:06,728 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:20:06,735 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:20:06,738 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:22:51,475 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:22:51,480 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:22:51,522 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:22:59,033 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 08:22:59,034 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 08:22:59,035 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 08:22:59,036 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 08:22:59,036 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 08:22:59,037 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 08:22:59,870 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f92531e)
+26 Mar 2021 08:22:59,890 TRACE repository.UserDBRepository 43 login - Exit with(Username and password combination not valid)
+26 Mar 2021 08:23:07,545 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 08:23:07,546 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 08:23:07,546 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f92531e)
+26 Mar 2021 08:23:07,546 TRACE repository.UserDBRepository 34 login - Exit
+26 Mar 2021 08:45:42,634 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:45:42,660 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:45:42,662 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:45:57,092 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 08:45:57,094 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 08:45:57,095 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 08:45:57,095 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 08:45:57,096 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 08:45:57,096 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 08:46:01,183 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ff6c58)
+26 Mar 2021 08:46:01,187 TRACE repository.UserDBRepository 34 login - Exit
+26 Mar 2021 08:47:52,771 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:47:52,778 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:47:52,779 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:48:02,002 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 08:48:02,003 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 08:48:02,003 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 08:48:02,003 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 08:48:02,004 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 08:48:02,004 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 08:48:02,462 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@13adca2d)
+26 Mar 2021 08:48:02,466 TRACE repository.UserDBRepository 43 login - Exit with(Username and password combination not valid)
+26 Mar 2021 08:48:07,744 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 08:48:07,744 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 08:48:07,745 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@13adca2d)
+26 Mar 2021 08:48:07,746 TRACE repository.UserDBRepository 34 login - Exit
+26 Mar 2021 08:51:48,198 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:51:48,204 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:51:48,206 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 08:51:55,882 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 08:51:55,883 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 08:51:55,883 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 08:51:55,884 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 08:51:55,884 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 08:51:55,885 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 08:51:56,208 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ff6c58)
+26 Mar 2021 08:51:56,212 TRACE repository.UserDBRepository 34 login - Exit
+26 Mar 2021 09:07:59,275 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:07:59,280 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:07:59,281 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:08:07,185 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 09:08:07,187 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:08:07,187 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 09:08:07,187 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 09:08:07,188 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 09:08:07,188 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 09:08:07,416 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@267b672f)
+26 Mar 2021 09:08:07,420 TRACE repository.UserDBRepository 34 login - Exit
+26 Mar 2021 09:09:46,614 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:09:46,622 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:09:46,624 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:10:04,041 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 09:10:04,042 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:10:04,043 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 09:10:04,043 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 09:10:04,043 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 09:10:04,044 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 09:10:04,337 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f92531e)
+26 Mar 2021 09:10:04,342 TRACE repository.UserDBRepository 34 login - Exit
+26 Mar 2021 09:10:48,086 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:10:48,093 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:10:48,095 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:10:54,498 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 09:10:54,499 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:10:54,500 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 09:10:54,500 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 09:10:54,500 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 09:10:54,501 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 09:10:54,689 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f92531e)
+26 Mar 2021 09:10:54,693 TRACE repository.UserDBRepository 34 login - Exit
+26 Mar 2021 09:10:54,950 TRACE repository.ExcursionDBRepository 87 findAll - Enter
+26 Mar 2021 09:10:54,952 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:10:54,953 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 09:10:54,954 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 09:10:54,954 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 09:10:54,955 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 09:10:54,957 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@36ad94d5)
+26 Mar 2021 09:10:55,115 TRACE repository.ExcursionDBRepository 108 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}])
+26 Mar 2021 09:28:18,688 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:28:18,694 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:28:18,697 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:28:28,776 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 09:28:28,777 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:28:28,777 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 09:28:28,778 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 09:28:28,778 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 09:28:28,778 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 09:28:29,038 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ff6c58)
+26 Mar 2021 09:28:29,043 TRACE repository.UserDBRepository 34 login - Exit
+26 Mar 2021 09:28:29,368 TRACE repository.ExcursionDBRepository 87 findAll - Enter
+26 Mar 2021 09:28:29,369 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:28:29,369 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 09:28:29,369 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 09:28:29,370 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 09:28:29,370 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 09:28:29,371 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a7b3a5)
+26 Mar 2021 09:28:29,444 TRACE repository.ExcursionDBRepository 108 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+26 Mar 2021 09:28:43,854 TRACE repository.ExcursionDBRepository 30 filterByObjective - Enter
+26 Mar 2021 09:28:43,854 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:28:43,854 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a7b3a5)
+26 Mar 2021 09:39:19,578 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:39:19,584 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:39:19,586 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:39:39,376 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 09:39:39,377 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:39:39,378 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 09:39:39,378 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 09:39:39,378 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 09:39:39,378 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 09:39:39,696 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@13adca2d)
+26 Mar 2021 09:39:39,701 TRACE repository.UserDBRepository 34 login - Exit
+26 Mar 2021 09:39:40,084 TRACE repository.ExcursionDBRepository 87 findAll - Enter
+26 Mar 2021 09:39:40,085 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:39:40,085 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 09:39:40,086 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 09:39:40,086 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 09:39:40,087 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 09:39:40,089 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4e81e2cf)
+26 Mar 2021 09:39:40,146 TRACE repository.ExcursionDBRepository 108 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+26 Mar 2021 09:39:59,833 TRACE repository.ReservationDBRepository 80 save - Enter Saving reservation Reservation{name='a', phoneNumber=123456789, ticketsNumber=null, excursionID=9}
+26 Mar 2021 09:39:59,834 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:39:59,834 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 09:39:59,834 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 09:39:59,835 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 09:39:59,835 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 09:39:59,836 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3e1b4662)
+26 Mar 2021 09:41:05,654 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:41:05,706 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:41:05,707 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 09:41:15,396 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 09:41:15,397 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:41:15,398 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 09:41:15,398 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 09:41:15,399 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 09:41:15,400 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 09:41:16,087 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@19cd6283)
+26 Mar 2021 09:41:16,092 TRACE repository.UserDBRepository 43 login - Exit with(Username and password combination not valid)
+26 Mar 2021 09:41:20,725 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 09:41:20,725 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:41:20,725 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@19cd6283)
+26 Mar 2021 09:41:20,726 TRACE repository.UserDBRepository 34 login - Exit
+26 Mar 2021 09:41:21,106 TRACE repository.ExcursionDBRepository 87 findAll - Enter
+26 Mar 2021 09:41:21,107 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:41:21,107 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 09:41:21,107 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 09:41:21,108 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 09:41:21,108 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 09:41:21,109 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@713b79c0)
+26 Mar 2021 09:41:21,185 TRACE repository.ExcursionDBRepository 108 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+26 Mar 2021 09:41:38,942 TRACE repository.ExcursionDBRepository 30 filterByObjective - Enter
+26 Mar 2021 09:41:38,942 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 09:41:38,942 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@713b79c0)
+26 Mar 2021 13:29:17,719 INFO  repository.UserDBRepository 21 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 13:29:17,737 INFO  repository.ExcursionDBRepository 24 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 13:29:17,739 INFO  repository.ReservationDBRepository 21 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 13:29:40,360 TRACE repository.UserDBRepository 27 login - Enter
+26 Mar 2021 13:29:40,362 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 13:29:40,362 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 13:29:40,362 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 13:29:40,362 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 13:29:40,363 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 13:29:40,724 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@50f3db8a)
+26 Mar 2021 13:29:40,744 TRACE repository.UserDBRepository 34 login - Exit
+26 Mar 2021 13:29:41,002 TRACE repository.ExcursionDBRepository 87 findAll - Enter
+26 Mar 2021 13:29:41,003 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 13:29:41,003 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 13:29:41,003 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 13:29:41,003 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 13:29:41,004 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 13:29:41,005 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ccce9d6)
+26 Mar 2021 13:29:41,180 TRACE repository.ExcursionDBRepository 108 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+26 Mar 2021 14:08:02,386 INFO  repository.UserDBRepository 24 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:08:02,393 INFO  repository.ExcursionDBRepository 28 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:08:02,396 INFO  repository.ReservationDBRepository 24 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:08:11,013 TRACE repository.UserDBRepository 31 login - Enter
+26 Mar 2021 14:08:11,015 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:08:11,015 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:08:11,016 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:08:11,016 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:08:11,016 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:08:11,180 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e7cb7ef)
+26 Mar 2021 14:08:11,185 TRACE repository.UserDBRepository 38 login - Exit
+26 Mar 2021 14:08:11,323 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+26 Mar 2021 14:08:11,323 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:08:11,324 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:08:11,324 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:08:11,325 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:08:11,325 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:08:11,327 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@53e3077c)
+26 Mar 2021 14:08:11,346 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+26 Mar 2021 14:08:29,595 TRACE repository.ExcursionDBRepository 65 findOne - Enter
+26 Mar 2021 14:08:29,595 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:08:29,595 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@53e3077c)
+26 Mar 2021 14:08:29,596 TRACE repository.ExcursionDBRepository 77 findOne - Exit with(Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50})
+26 Mar 2021 14:08:29,599 TRACE repository.ReservationDBRepository 82 save - Enter Saving reservation Reservation{name='eu', phoneNumber=1234, ticketsNumber=5, excursionID=9}
+26 Mar 2021 14:10:09,941 INFO  repository.UserDBRepository 24 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:10:09,948 INFO  repository.ExcursionDBRepository 28 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:10:09,950 INFO  repository.ReservationDBRepository 24 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:10:17,661 TRACE repository.UserDBRepository 31 login - Enter
+26 Mar 2021 14:10:17,662 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:10:17,662 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:10:17,662 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:10:17,663 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:10:17,664 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:10:17,869 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1c6c2491)
+26 Mar 2021 14:10:17,874 TRACE repository.UserDBRepository 38 login - Exit
+26 Mar 2021 14:10:18,011 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+26 Mar 2021 14:10:18,011 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:10:18,012 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:10:18,012 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:10:18,012 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:10:18,012 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:10:18,013 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@76264844)
+26 Mar 2021 14:10:18,036 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+26 Mar 2021 14:10:28,010 TRACE repository.ExcursionDBRepository 65 findOne - Enter
+26 Mar 2021 14:10:28,010 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:10:28,010 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@76264844)
+26 Mar 2021 14:10:28,012 TRACE repository.ExcursionDBRepository 77 findOne - Exit with(Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50})
+26 Mar 2021 14:10:28,016 TRACE repository.ReservationDBRepository 82 save - Enter Saving reservation Reservation{name='eu', phoneNumber=123456, ticketsNumber=1, excursionID=9}
+26 Mar 2021 14:10:33,370 TRACE repository.ExcursionDBRepository 65 findOne - Enter
+26 Mar 2021 14:10:33,370 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:10:33,370 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@76264844)
+26 Mar 2021 14:10:33,371 TRACE repository.ExcursionDBRepository 77 findOne - Exit with(Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50})
+26 Mar 2021 14:10:33,371 TRACE repository.ReservationDBRepository 82 save - Enter Saving reservation Reservation{name='eu', phoneNumber=123456789, ticketsNumber=1, excursionID=9}
+26 Mar 2021 14:10:33,372 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:10:33,372 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:10:33,372 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:10:33,372 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:10:33,373 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:10:33,374 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@249d58b8)
+26 Mar 2021 14:10:33,470 TRACE repository.ReservationDBRepository 96 save - Saved 1 instances
+26 Mar 2021 14:10:33,471 TRACE repository.ReservationDBRepository 100 save - Exit
+26 Mar 2021 14:10:33,472 TRACE repository.ExcursionDBRepository 160 update - Enter update excursion Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=49}
+26 Mar 2021 14:10:33,473 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:10:33,473 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@76264844)
+26 Mar 2021 14:10:33,560 TRACE repository.ExcursionDBRepository 178 update - Updated 1 instances
+26 Mar 2021 14:10:33,560 TRACE repository.ExcursionDBRepository 183 update - Exit
+26 Mar 2021 14:10:33,560 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+26 Mar 2021 14:10:33,560 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:10:33,560 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@76264844)
+26 Mar 2021 14:10:33,561 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=49}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+26 Mar 2021 14:24:06,049 INFO  repository.UserDBRepository 24 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:24:06,169 INFO  repository.ExcursionDBRepository 28 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:24:06,213 INFO  repository.ReservationDBRepository 24 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:24:19,536 TRACE repository.UserDBRepository 31 login - Enter
+26 Mar 2021 14:24:19,538 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:24:19,539 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:24:19,539 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:24:19,541 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:24:19,541 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:24:19,954 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@63087fcd)
+26 Mar 2021 14:24:19,959 TRACE repository.UserDBRepository 38 login - Exit
+26 Mar 2021 14:24:20,293 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+26 Mar 2021 14:24:20,294 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:24:20,294 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:24:20,295 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:24:20,295 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:24:20,296 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:24:20,298 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@73293c52)
+26 Mar 2021 14:24:20,447 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=49}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+26 Mar 2021 14:25:29,745 TRACE repository.ExcursionDBRepository 65 findOne - Enter
+26 Mar 2021 14:25:36,804 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:25:36,805 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@73293c52)
+26 Mar 2021 14:25:48,417 TRACE repository.ExcursionDBRepository 77 findOne - Exit with(Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=50})
+26 Mar 2021 14:26:54,345 TRACE repository.ReservationDBRepository 82 save - Enter Saving reservation Reservation{name='eu', phoneNumber=123456789, ticketsNumber=10, excursionID=10}
+26 Mar 2021 14:26:54,347 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:26:54,348 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:26:54,350 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:26:54,351 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:26:54,352 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:26:54,355 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@589f3ae9)
+26 Mar 2021 14:26:54,461 TRACE repository.ReservationDBRepository 96 save - Saved 1 instances
+26 Mar 2021 14:26:54,462 TRACE repository.ReservationDBRepository 100 save - Exit
+26 Mar 2021 14:27:17,058 TRACE repository.ExcursionDBRepository 160 update - Enter update excursion Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=40}
+26 Mar 2021 14:27:21,898 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:27:21,900 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@73293c52)
+26 Mar 2021 14:27:31,275 TRACE repository.ExcursionDBRepository 178 update - Updated 1 instances
+26 Mar 2021 14:27:32,968 TRACE repository.ExcursionDBRepository 183 update - Exit
+26 Mar 2021 14:27:41,514 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+26 Mar 2021 14:27:41,516 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:27:41,518 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@73293c52)
+26 Mar 2021 14:27:41,522 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=49}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=40}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+26 Mar 2021 14:29:42,386 INFO  repository.UserDBRepository 24 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:29:42,453 INFO  repository.ExcursionDBRepository 28 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:29:42,489 INFO  repository.ReservationDBRepository 24 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:29:53,189 TRACE repository.UserDBRepository 31 login - Enter
+26 Mar 2021 14:29:53,191 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:29:53,192 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:29:53,194 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:29:53,195 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:29:53,196 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:29:53,504 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@123b7ba3)
+26 Mar 2021 14:29:53,512 TRACE repository.UserDBRepository 38 login - Exit
+26 Mar 2021 14:29:53,838 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+26 Mar 2021 14:29:53,839 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:29:53,840 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:29:53,841 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:29:53,842 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:29:53,846 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:29:53,848 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@177f90c9)
+26 Mar 2021 14:29:53,888 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=49}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=40}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+26 Mar 2021 14:30:20,220 TRACE repository.ExcursionDBRepository 65 findOne - Enter
+26 Mar 2021 14:30:20,220 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:30:20,221 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@177f90c9)
+26 Mar 2021 14:30:20,222 TRACE repository.ExcursionDBRepository 77 findOne - Exit with(Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=40})
+26 Mar 2021 14:30:27,747 TRACE repository.ExcursionDBRepository 65 findOne - Enter
+26 Mar 2021 14:30:27,747 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:30:27,748 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@177f90c9)
+26 Mar 2021 14:30:27,749 TRACE repository.ExcursionDBRepository 77 findOne - Exit with(Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=40})
+26 Mar 2021 14:30:27,754 TRACE repository.ReservationDBRepository 82 save - Enter Saving reservation Reservation{name='tu', phoneNumber=987654321, ticketsNumber=26, excursionID=10}
+26 Mar 2021 14:30:27,755 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:30:27,755 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:30:27,755 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:30:27,756 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:30:27,756 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:30:27,757 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@74326ac8)
+26 Mar 2021 14:30:27,858 TRACE repository.ReservationDBRepository 96 save - Saved 1 instances
+26 Mar 2021 14:30:27,858 TRACE repository.ReservationDBRepository 100 save - Exit
+26 Mar 2021 14:30:27,859 TRACE repository.ExcursionDBRepository 160 update - Enter update excursion Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=14}
+26 Mar 2021 14:30:27,859 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:30:27,859 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@177f90c9)
+26 Mar 2021 14:30:27,924 TRACE repository.ExcursionDBRepository 178 update - Updated 1 instances
+26 Mar 2021 14:30:27,925 TRACE repository.ExcursionDBRepository 183 update - Exit
+26 Mar 2021 14:30:27,925 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+26 Mar 2021 14:30:27,925 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:30:27,925 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@177f90c9)
+26 Mar 2021 14:30:27,927 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=49}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=14}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+26 Mar 2021 14:30:37,835 TRACE repository.ExcursionDBRepository 65 findOne - Enter
+26 Mar 2021 14:30:37,835 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:30:37,835 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@177f90c9)
+26 Mar 2021 14:30:37,837 TRACE repository.ExcursionDBRepository 77 findOne - Exit with(Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=14})
+26 Mar 2021 14:30:46,514 TRACE repository.ExcursionDBRepository 65 findOne - Enter
+26 Mar 2021 14:30:46,515 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:30:46,515 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@177f90c9)
+26 Mar 2021 14:30:46,516 TRACE repository.ExcursionDBRepository 77 findOne - Exit with(Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=14})
+26 Mar 2021 14:30:46,517 TRACE repository.ReservationDBRepository 82 save - Enter Saving reservation Reservation{name='tu', phoneNumber=987654321, ticketsNumber=14, excursionID=10}
+26 Mar 2021 14:30:46,517 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:30:46,518 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@74326ac8)
+26 Mar 2021 14:30:46,676 TRACE repository.ReservationDBRepository 96 save - Saved 1 instances
+26 Mar 2021 14:30:46,676 TRACE repository.ReservationDBRepository 100 save - Exit
+26 Mar 2021 14:30:46,676 TRACE repository.ExcursionDBRepository 160 update - Enter update excursion Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=0}
+26 Mar 2021 14:31:56,813 INFO  repository.UserDBRepository 24 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:31:56,821 INFO  repository.ExcursionDBRepository 28 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:31:56,824 INFO  repository.ReservationDBRepository 24 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+26 Mar 2021 14:32:05,190 TRACE repository.UserDBRepository 31 login - Enter
+26 Mar 2021 14:32:05,191 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:32:05,192 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:32:05,192 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:32:05,193 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:32:05,193 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:32:05,432 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6b4a0108)
+26 Mar 2021 14:32:05,438 TRACE repository.UserDBRepository 38 login - Exit
+26 Mar 2021 14:32:05,639 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+26 Mar 2021 14:32:05,640 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:32:05,640 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:32:05,640 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:32:05,640 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:32:05,641 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:32:05,647 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d5d8166)
+26 Mar 2021 14:32:05,664 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=49}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=14}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+26 Mar 2021 14:32:20,412 TRACE repository.ExcursionDBRepository 65 findOne - Enter
+26 Mar 2021 14:32:20,413 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:32:20,414 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d5d8166)
+26 Mar 2021 14:32:20,417 TRACE repository.ExcursionDBRepository 77 findOne - Exit with(Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=14})
+26 Mar 2021 14:32:20,421 TRACE repository.ReservationDBRepository 82 save - Enter Saving reservation Reservation{name='ea', phoneNumber=121212121, ticketsNumber=14, excursionID=10}
+26 Mar 2021 14:32:20,422 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:32:20,422 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+26 Mar 2021 14:32:20,423 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+26 Mar 2021 14:32:20,423 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+26 Mar 2021 14:32:20,423 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+26 Mar 2021 14:32:20,423 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3850946a)
+26 Mar 2021 14:32:20,536 TRACE repository.ReservationDBRepository 96 save - Saved 1 instances
+26 Mar 2021 14:32:20,536 TRACE repository.ReservationDBRepository 100 save - Exit
+26 Mar 2021 14:32:20,536 TRACE repository.ExcursionDBRepository 160 update - Enter update excursion Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=0}
+26 Mar 2021 14:32:20,536 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:32:20,536 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d5d8166)
+26 Mar 2021 14:32:20,619 TRACE repository.ExcursionDBRepository 178 update - Updated 1 instances
+26 Mar 2021 14:32:20,619 TRACE repository.ExcursionDBRepository 183 update - Exit
+26 Mar 2021 14:32:20,619 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+26 Mar 2021 14:32:20,619 TRACE repository.JdbcUtils 47 getConnection - Enter
+26 Mar 2021 14:32:20,619 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6d5d8166)
+26 Mar 2021 14:32:20,620 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=49}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=0}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+01 Apr 2021 13:45:46,613 INFO  repository.ExcursionDBRepository 28 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_testing.db} 
+01 Apr 2021 13:45:46,631 INFO  repository.UserDBRepository 24 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_testing.db} 
+01 Apr 2021 13:45:46,658 INFO  repository.ReservationDBRepository 24 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_testing.db} 
+01 Apr 2021 13:45:46,662 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:46,662 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2021 13:45:46,663 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_testing.db
+01 Apr 2021 13:45:46,664 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2021 13:45:46,665 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2021 13:45:46,864 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58e90ee4)
+01 Apr 2021 13:45:47,047 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,048 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2021 13:45:47,050 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_testing.db
+01 Apr 2021 13:45:47,050 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2021 13:45:47,051 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2021 13:45:47,052 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3a4ee26f)
+01 Apr 2021 13:45:47,163 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,164 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2021 13:45:47,165 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_testing.db
+01 Apr 2021 13:45:47,166 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2021 13:45:47,167 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2021 13:45:47,168 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a37f84f)
+01 Apr 2021 13:45:47,274 TRACE repository.UserDBRepository 100 save - Enter Saving user User{username='Ion', password='1234'}
+01 Apr 2021 13:45:47,275 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,276 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2021 13:45:47,276 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_testing.db
+01 Apr 2021 13:45:47,277 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2021 13:45:47,278 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2021 13:45:47,279 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22223dab)
+01 Apr 2021 13:45:47,452 TRACE repository.UserDBRepository 113 save - Saved 1 instances
+01 Apr 2021 13:45:47,452 TRACE repository.UserDBRepository 75 findAll - Enter
+01 Apr 2021 13:45:47,454 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,455 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22223dab)
+01 Apr 2021 13:45:47,456 TRACE repository.UserDBRepository 93 findAll - Exit with([User{username='Ion', password='1234'}])
+01 Apr 2021 13:45:47,457 TRACE repository.UserDBRepository 52 findOne - Enter
+01 Apr 2021 13:45:47,458 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,458 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22223dab)
+01 Apr 2021 13:45:47,461 TRACE repository.UserDBRepository 61 findOne - Exit with(User{username='Ion', password='1234'})
+01 Apr 2021 13:45:47,461 TRACE repository.UserDBRepository 140 update - Enter update user User{username='Mihai', password='1234'}
+01 Apr 2021 13:45:47,475 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,477 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22223dab)
+01 Apr 2021 13:45:47,622 TRACE repository.UserDBRepository 155 update - Updated 1 instances
+01 Apr 2021 13:45:47,623 TRACE repository.UserDBRepository 160 update - Exit
+01 Apr 2021 13:45:47,624 TRACE repository.UserDBRepository 52 findOne - Enter
+01 Apr 2021 13:45:47,625 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,625 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22223dab)
+01 Apr 2021 13:45:47,626 TRACE repository.UserDBRepository 61 findOne - Exit with(User{username='Mihai', password='1234'})
+01 Apr 2021 13:45:47,627 TRACE repository.UserDBRepository 124 delete - Enter
+01 Apr 2021 13:45:47,628 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,629 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22223dab)
+01 Apr 2021 13:45:47,759 TRACE repository.UserDBRepository 129 delete - Deleted 1 instances
+01 Apr 2021 13:45:47,760 TRACE repository.UserDBRepository 134 delete - Exit
+01 Apr 2021 13:45:47,761 TRACE repository.UserDBRepository 75 findAll - Enter
+01 Apr 2021 13:45:47,761 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,762 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@22223dab)
+01 Apr 2021 13:45:47,762 TRACE repository.UserDBRepository 93 findAll - Exit with([])
+01 Apr 2021 13:45:47,772 TRACE repository.ExcursionDBRepository 119 save - Enter Saving excursion Excursion{objective='muzeu', company='Tarom', price=25.0, time=20:30, seats=50}
+01 Apr 2021 13:45:47,773 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,773 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2021 13:45:47,774 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_testing.db
+01 Apr 2021 13:45:47,774 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2021 13:45:47,775 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2021 13:45:47,777 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@36e961ce)
+01 Apr 2021 13:45:47,933 TRACE repository.ExcursionDBRepository 135 save - Saved 1 instances
+01 Apr 2021 13:45:47,934 TRACE repository.ExcursionDBRepository 140 save - Exit
+01 Apr 2021 13:45:47,935 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+01 Apr 2021 13:45:47,936 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,936 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@36e961ce)
+01 Apr 2021 13:45:47,963 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([Excursion{objective='muzeu', company='Tarom', price=25.0, time=20:30, seats=50}])
+01 Apr 2021 13:45:47,964 TRACE repository.ExcursionDBRepository 35 filterByObjective - Enter
+01 Apr 2021 13:45:47,965 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,966 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@36e961ce)
+01 Apr 2021 13:45:47,967 TRACE repository.ExcursionDBRepository 65 findOne - Enter
+01 Apr 2021 13:45:47,967 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,968 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@36e961ce)
+01 Apr 2021 13:45:47,969 TRACE repository.ExcursionDBRepository 77 findOne - Exit with(Excursion{objective='muzeu', company='Tarom', price=25.0, time=20:30, seats=50})
+01 Apr 2021 13:45:47,970 TRACE repository.ExcursionDBRepository 160 update - Enter update excursion Excursion{objective='opera', company='Tarom', price=25.0, time=20:30, seats=50}
+01 Apr 2021 13:45:47,971 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:47,971 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@36e961ce)
+01 Apr 2021 13:45:48,063 TRACE repository.ExcursionDBRepository 178 update - Updated 1 instances
+01 Apr 2021 13:45:48,064 TRACE repository.ExcursionDBRepository 183 update - Exit
+01 Apr 2021 13:45:48,065 TRACE repository.ExcursionDBRepository 65 findOne - Enter
+01 Apr 2021 13:45:48,066 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:48,066 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@36e961ce)
+01 Apr 2021 13:45:48,067 TRACE repository.ExcursionDBRepository 77 findOne - Exit with(Excursion{objective='opera', company='Tarom', price=25.0, time=20:30, seats=50})
+01 Apr 2021 13:45:48,068 TRACE repository.ExcursionDBRepository 35 filterByObjective - Enter
+01 Apr 2021 13:45:48,069 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:48,070 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@36e961ce)
+01 Apr 2021 13:45:48,074 TRACE repository.ReservationDBRepository 82 save - Enter Saving reservation Reservation{name='John', phoneNumber=123456789, ticketsNumber=2, excursionID=1}
+01 Apr 2021 13:45:48,074 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:48,075 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2021 13:45:48,075 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_testing.db
+01 Apr 2021 13:45:48,076 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2021 13:45:48,077 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2021 13:45:48,078 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3b14e0e4)
+01 Apr 2021 13:45:48,167 TRACE repository.ReservationDBRepository 96 save - Saved 1 instances
+01 Apr 2021 13:45:48,168 TRACE repository.ReservationDBRepository 100 save - Exit
+01 Apr 2021 13:45:48,169 TRACE repository.ReservationDBRepository 56 findAll - Enter
+01 Apr 2021 13:45:48,170 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:48,170 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3b14e0e4)
+01 Apr 2021 13:45:48,171 TRACE repository.ReservationDBRepository 76 findAll - Exit with([Reservation{name='John', phoneNumber=123456789, ticketsNumber=2, excursionID=1}])
+01 Apr 2021 13:45:48,172 TRACE repository.ReservationDBRepository 31 findOne - Enter
+01 Apr 2021 13:45:48,172 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:48,173 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3b14e0e4)
+01 Apr 2021 13:45:48,174 TRACE repository.ReservationDBRepository 42 findOne - Exit with(Reservation{name='John', phoneNumber=123456789, ticketsNumber=2, excursionID=1})
+01 Apr 2021 13:45:48,175 TRACE repository.ReservationDBRepository 121 update - Enter update reservation Reservation{name='Sam', phoneNumber=123456789, ticketsNumber=2, excursionID=1}
+01 Apr 2021 13:45:48,176 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:48,177 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3b14e0e4)
+01 Apr 2021 13:45:48,267 TRACE repository.ReservationDBRepository 137 update - Updated 1 instances
+01 Apr 2021 13:45:48,268 TRACE repository.ReservationDBRepository 141 update - Exit
+01 Apr 2021 13:45:48,269 TRACE repository.ReservationDBRepository 31 findOne - Enter
+01 Apr 2021 13:45:48,269 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:48,270 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3b14e0e4)
+01 Apr 2021 13:45:48,271 TRACE repository.ReservationDBRepository 42 findOne - Exit with(Reservation{name='Sam', phoneNumber=123456789, ticketsNumber=2, excursionID=1})
+01 Apr 2021 13:45:48,272 TRACE repository.ReservationDBRepository 106 delete - Enter
+01 Apr 2021 13:45:48,272 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:48,273 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3b14e0e4)
+01 Apr 2021 13:45:48,356 TRACE repository.ReservationDBRepository 111 delete - Deleted 1 instances
+01 Apr 2021 13:45:48,356 TRACE repository.ReservationDBRepository 116 delete - Exit
+01 Apr 2021 13:45:48,357 TRACE repository.ReservationDBRepository 56 findAll - Enter
+01 Apr 2021 13:45:48,358 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:48,358 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3b14e0e4)
+01 Apr 2021 13:45:48,360 TRACE repository.ReservationDBRepository 76 findAll - Exit with([])
+01 Apr 2021 13:45:48,361 TRACE repository.ExcursionDBRepository 145 delete - Enter Deleting excursion with id 1
+01 Apr 2021 13:45:48,361 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:48,362 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@36e961ce)
+01 Apr 2021 13:45:48,473 TRACE repository.ExcursionDBRepository 150 delete - Deleted 1 instances
+01 Apr 2021 13:45:48,474 TRACE repository.ExcursionDBRepository 155 delete - Exit
+01 Apr 2021 13:45:48,475 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+01 Apr 2021 13:45:48,476 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:45:48,476 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@36e961ce)
+01 Apr 2021 13:45:48,477 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([])
+01 Apr 2021 13:46:10,055 INFO  repository.UserDBRepository 24 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+01 Apr 2021 13:46:10,061 INFO  repository.ExcursionDBRepository 28 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+01 Apr 2021 13:46:10,063 INFO  repository.ReservationDBRepository 24 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+01 Apr 2021 13:46:21,571 TRACE repository.UserDBRepository 31 login - Enter
+01 Apr 2021 13:46:21,573 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:46:21,574 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2021 13:46:21,574 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+01 Apr 2021 13:46:21,574 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2021 13:46:21,575 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2021 13:46:21,772 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@884a186)
+01 Apr 2021 13:46:21,776 TRACE repository.UserDBRepository 38 login - Exit
+01 Apr 2021 13:46:21,877 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+01 Apr 2021 13:46:21,890 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:46:21,891 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2021 13:46:21,891 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+01 Apr 2021 13:46:21,892 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2021 13:46:21,893 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2021 13:46:21,894 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@60b920fb)
+01 Apr 2021 13:46:21,910 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=48}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=0}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+01 Apr 2021 13:46:26,729 TRACE repository.ExcursionDBRepository 35 filterByObjective - Enter
+01 Apr 2021 13:46:26,730 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:46:26,731 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@60b920fb)
+01 Apr 2021 13:46:35,232 TRACE repository.ExcursionDBRepository 35 filterByObjective - Enter
+01 Apr 2021 13:46:35,233 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:46:35,234 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@60b920fb)
+01 Apr 2021 13:46:47,201 TRACE repository.ExcursionDBRepository 35 filterByObjective - Enter
+01 Apr 2021 13:46:47,202 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:46:47,202 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@60b920fb)
+01 Apr 2021 13:49:12,714 INFO  repository.UserDBRepository 24 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+01 Apr 2021 13:49:12,784 INFO  repository.ExcursionDBRepository 28 <init> - Initializing ExcursionDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+01 Apr 2021 13:49:12,813 INFO  repository.ReservationDBRepository 24 <init> - Initializing ReservationDBRepository with properties: {jdbc.url=jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db} 
+01 Apr 2021 13:49:18,202 TRACE repository.UserDBRepository 31 login - Enter
+01 Apr 2021 13:49:18,205 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:49:18,206 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2021 13:49:18,207 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+01 Apr 2021 13:49:18,208 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2021 13:49:18,208 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2021 13:49:18,717 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d0cd30b)
+01 Apr 2021 13:49:18,723 TRACE repository.UserDBRepository 38 login - Exit
+01 Apr 2021 13:49:18,899 TRACE repository.ExcursionDBRepository 92 findAll - Enter
+01 Apr 2021 13:49:18,899 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:49:18,900 TRACE repository.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2021 13:49:18,901 INFO  repository.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:C:\Users\asus\Databases\tourism_agency.db
+01 Apr 2021 13:49:18,903 INFO  repository.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2021 13:49:18,903 INFO  repository.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2021 13:49:18,905 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@196bde13)
+01 Apr 2021 13:49:18,921 TRACE repository.ExcursionDBRepository 113 findAll - Exit with([Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=20:30, seats=48}, Excursion{objective='Eiffel Tower', company='Christian Tour', price=500.0, time=18:30, seats=0}, Excursion{objective='London Eye', company='Jeka Tourism', price=300.0, time=10:00, seats=40}])
+01 Apr 2021 13:49:30,442 TRACE repository.ExcursionDBRepository 35 filterByObjective - Enter
+01 Apr 2021 13:49:30,443 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:49:30,444 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@196bde13)
+01 Apr 2021 13:49:35,089 TRACE repository.ExcursionDBRepository 35 filterByObjective - Enter
+01 Apr 2021 13:49:35,090 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:49:35,091 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@196bde13)
+01 Apr 2021 13:49:40,081 TRACE repository.ExcursionDBRepository 35 filterByObjective - Enter
+01 Apr 2021 13:49:40,082 TRACE repository.JdbcUtils 47 getConnection - Enter
+01 Apr 2021 13:49:40,083 TRACE repository.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@196bde13)

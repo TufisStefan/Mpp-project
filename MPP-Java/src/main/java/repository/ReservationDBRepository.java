@@ -1,6 +1,8 @@
 package repository;
 
 import domain.Reservation;
+import domain.validators.ValidationException;
+import domain.validators.Validator;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -12,24 +14,26 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-public class ReservationDBRepository implements ReservationRepository{
+public class ReservationDBRepository implements ReservationRepository {
 
-    private JdbcUtils dbUtils;
-    private static final Logger logger= LogManager.getLogger();
+    private final JdbcUtils dbUtils;
+    private static final Logger logger = LogManager.getLogger();
+    private static Validator<Reservation> validator;
 
-    public ReservationDBRepository(Properties props) {
-        logger.info("Initializing ReservationDBRepository with properties: {} ",props);
-        dbUtils=new JdbcUtils(props);
+    public ReservationDBRepository(Properties props, Validator<Reservation> validator) {
+        logger.info("Initializing ReservationDBRepository with properties: {} ", props);
+        dbUtils = new JdbcUtils(props);
+        ReservationDBRepository.validator = validator;
     }
 
     @Override
     public Reservation findOne(Long aLong) {
         logger.traceEntry();
         Connection con = dbUtils.getConnection();
-        try(PreparedStatement preparedStatement = con.prepareStatement("select * from Reservations where id=?")){
-            preparedStatement.setLong(1,aLong);
-            try(ResultSet result = preparedStatement.executeQuery()){
-                if(result.next()){
+        try (PreparedStatement preparedStatement = con.prepareStatement("select * from Reservations where id=?")) {
+            preparedStatement.setLong(1, aLong);
+            try (ResultSet result = preparedStatement.executeQuery()) {
+                if (result.next()) {
                     String name = result.getString("name");
                     Long phone = result.getLong("phone");
                     Long tickets = result.getLong("tickets");
@@ -39,8 +43,7 @@ public class ReservationDBRepository implements ReservationRepository{
                     return reservation;
                 }
             }
-        }
-        catch (SQLException ex){
+        } catch (SQLException ex) {
             logger.error(ex);
             System.out.println(ex);
         }
@@ -53,9 +56,9 @@ public class ReservationDBRepository implements ReservationRepository{
         logger.traceEntry();
         Connection con = dbUtils.getConnection();
         List<Reservation> reservations = new ArrayList<>();
-        try(PreparedStatement preparedStatement = con.prepareStatement("select * from Reservations")){
-            try(ResultSet result = preparedStatement.executeQuery()) {
-                while(result.next()) {
+        try (PreparedStatement preparedStatement = con.prepareStatement("select * from Reservations")) {
+            try (ResultSet result = preparedStatement.executeQuery()) {
+                while (result.next()) {
                     Long id = result.getLong("id");
                     String name = result.getString("name");
                     Long phone = result.getLong("phone");
@@ -66,28 +69,32 @@ public class ReservationDBRepository implements ReservationRepository{
                     reservations.add(reservation);
                 }
             }
-        }
-        catch (SQLException ex){
+        } catch (SQLException ex) {
             logger.error(ex);
-            System.err.println("Error DB"+ex);
+            System.err.println("Error DB" + ex);
         }
         logger.traceExit(reservations);
         return reservations;
     }
 
     @Override
-    public void save(Reservation entity) {
+    public void save(Reservation entity) throws ValidationException {
         logger.traceEntry("Saving reservation {}", entity);
+        try{
+            validator.validate(entity);
+        }
+        catch (ValidationException e) {
+            throw e;
+        }
         Connection con = dbUtils.getConnection();
-        try(PreparedStatement preparedStatement = con.prepareStatement("insert into Reservations(name, phone, tickets, excursionId) values (?,?,?,?)")){
+        try (PreparedStatement preparedStatement = con.prepareStatement("insert into Reservations(name, phone, tickets, excursionId) values (?,?,?,?)")) {
             preparedStatement.setString(1, entity.getName());
-            preparedStatement.setLong(2,entity.getPhoneNumber());
+            preparedStatement.setLong(2, entity.getPhoneNumber());
             preparedStatement.setLong(3, entity.getTicketsNumber());
             preparedStatement.setLong(4, entity.getExcursionID());
             int result = preparedStatement.executeUpdate();
             logger.trace("Saved {} instances", result);
-        }
-        catch (SQLException ex){
+        } catch (SQLException ex) {
             logger.error(ex);
         }
         logger.traceExit();
@@ -98,31 +105,37 @@ public class ReservationDBRepository implements ReservationRepository{
     public void delete(Long aLong) {
         logger.traceEntry();
         Connection con = dbUtils.getConnection();
-        try(PreparedStatement preStmt=con.prepareStatement("delete from Reservations where id=?")){
-            preStmt.setLong(1,aLong);
-            int result=preStmt.executeUpdate();
+        try (PreparedStatement preStmt = con.prepareStatement("delete from Reservations where id=?")) {
+            preStmt.setLong(1, aLong);
+            int result = preStmt.executeUpdate();
             logger.trace("Deleted {} instances", result);
-        }catch (SQLException ex){
+        } catch (SQLException ex) {
             logger.error(ex);
-            System.out.println("Error DB "+ex);
+            System.out.println("Error DB " + ex);
         }
         logger.traceExit();
     }
 
     @Override
-    public void update(Long aLong, Reservation entity) {
+    public void update(Long aLong, Reservation entity) throws ValidationException {
         logger.traceEntry("update reservation {}", entity);
+        try{
+            validator.validate(entity);
+        }
+        catch (ValidationException e) {
+            throw e;
+        }
+
         Connection con = dbUtils.getConnection();
-        try(PreparedStatement preparedStatement = con.prepareStatement("update Reservations set name = ?, phone = ?, tickets = ?, excursionId = ? where id = ?;")){
+        try (PreparedStatement preparedStatement = con.prepareStatement("update Reservations set name = ?, phone = ?, tickets = ?, excursionId = ? where id = ?;")) {
             preparedStatement.setString(1, entity.getName());
             preparedStatement.setLong(2, entity.getPhoneNumber());
             preparedStatement.setLong(3, entity.getTicketsNumber());
             preparedStatement.setLong(4, entity.getExcursionID());
-            preparedStatement.setLong(5,aLong);
+            preparedStatement.setLong(5, aLong);
             int result = preparedStatement.executeUpdate();
             logger.trace("Updated {} instances", result);
-        }
-        catch (SQLException ex){
+        } catch (SQLException ex) {
             logger.error(ex);
         }
         logger.traceExit();

@@ -9,8 +9,8 @@ public class ExcursionValidator implements Validator<Excursion> {
         if(entity.getPrice() <= 0){
             errors += "Price must be greater than 0!\n";
         }
-        if(entity.getSeats() <= 0){
-            errors += "Number of seats must be greater than 0!\n";
+        if(entity.getSeats() < 0){
+            errors += "Number of seats can't be below 0!\n";
         }
         if(entity.getCompany().equals("")) {
             errors += "Company name is null!\n";
