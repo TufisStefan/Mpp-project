@@ -1,0 +1,16 @@
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\bin\x64\Debug\CSharp.exe.config
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\bin\x64\Debug\CSharp.exe
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\bin\x64\Debug\CSharp.pdb
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\bin\x64\Debug\log4net.dll
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\bin\x64\Debug\Mono.Data.Sqlite.dll
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\bin\x64\Debug\System.Data.SQLite.dll
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\bin\x64\Debug\log4net.xml
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\bin\x64\Debug\System.Data.SQLite.xml
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\obj\x64\Debug\CSharp.csprojAssemblyReference.cache
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\obj\x64\Debug\CSharp.Properties.Resources.resources
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\obj\x64\Debug\CSharp.csproj.GenerateResource.cache
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\obj\x64\Debug\CSharp.csproj.CopyComplete
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\obj\x64\Debug\CSharp.exe
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\obj\x64\Debug\CSharp.pdb
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\obj\x64\Debug\CSharp.LoginForm.resources
+C:\Users\asus\IdeaProjects\MPP_AgentieTurism\CSharp\CSharp\obj\x64\Debug\CSharp.domain.MainForm.resources
