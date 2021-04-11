@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id = "props" class="java.util.Properties">
+        <constructor-arg>
+            <props>
+                <prop key="jdbc.url">jdbc:sqlite:C:\\Users\\asus\\Databases\\tourism_agency.db</prop>
+            </props>
+        </constructor-arg>
+    </bean>
+
+    <bean id="userDbRepository" class="repository.UserDBRepository">
+        <constructor-arg index="0" ref="props"/>
+        <constructor-arg index="1">
+            <bean class="domain.validators.UserValidator"/>
+        </constructor-arg>
+    </bean>
+
+    <bean id="excursionDbRepository" class="repository.ExcursionDBRepository">
+        <constructor-arg index="0" ref="props"/>
+        <constructor-arg index="1">
+            <bean class="domain.validators.ExcursionValidator"/>
+        </constructor-arg>
+    </bean>
+
+    <bean id="reservationDbRepository" class="repository.ReservationDBRepository">
+        <constructor-arg index="0" ref="props"/>
+        <constructor-arg index="1">
+            <bean class="domain.validators.ReservationValidator"/>
+        </constructor-arg>
+    </bean>
+
+    <bean id="services" class="services.TourismAgencyServices">
+        <constructor-arg index="0" ref="userDbRepository"/>
+        <constructor-arg index="1" ref="excursionDbRepository"/>
+        <constructor-arg index="2" ref="reservationDbRepository"/>
+    </bean>
+
+    <bean id="serverProps" class="java.util.Properties">
+        <constructor-arg>
+            <props>
+                <prop key="port">12820</prop>
+            </props>
+        </constructor-arg>
+    </bean>
+
+</beans>

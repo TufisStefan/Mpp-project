@@ -1,2 +1,5 @@
 rootProject.name = 'MPP-Java'
+include 'Server'
+include 'Services'
+include 'Client'
 
