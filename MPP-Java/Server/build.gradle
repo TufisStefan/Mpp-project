@@ -22,7 +22,10 @@ dependencies {
 
     runtime group: 'org.xerial', name: 'sqlite-jdbc', version: '3.34.0'
     compile group: 'org.json', name: 'json', version: '20180813'
-
+    compile 'org.hibernate:hibernate-core:5.4.30.Final'
+    compile 'javax.xml.bind:jaxb-api:2.3.0'
+    compile 'javax.activation:activation:1.1'
+    compile 'org.glassfish.jaxb:jaxb-runtime:2.3.0'
     implementation group: 'org.springframework', name: 'spring-context', version: '5.3.4'
 }
 

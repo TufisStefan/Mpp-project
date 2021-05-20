@@ -10,23 +10,30 @@ import repository.RepositoryException;
 import repository.ReservationRepository;
 import repository.UserRepository;
 
+import java.rmi.RemoteException;
 import java.time.LocalTime;
 import java.util.List;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class TourismAgencyServices implements Services {
     private final UserRepository userRepository;
     private final ExcursionRepository excursionRepository;
     private final ReservationRepository reservationRepository;
 
+    private Map<String, IObserver> loggedClients;
+
     public TourismAgencyServices(UserRepository userRepository, ExcursionRepository excursionRepository, ReservationRepository reservationRepository) {
         this.userRepository = userRepository;
         this.excursionRepository = excursionRepository;
         this.reservationRepository = reservationRepository;
+        loggedClients=new ConcurrentHashMap<>();
     }
 
-   public User login(String username, String password) throws ServicesException {
+   public User login(String username, String password, IObserver client) throws ServicesException {
         try{
             User user = userRepository.login(username, password);
+            loggedClients.put(user.getUsername(), client);
             return user;
         }
         catch (RepositoryException ex){
@@ -59,9 +66,18 @@ public class TourismAgencyServices implements Services {
             reservationRepository.save(reservation);
             repoExcursion.setSeats(repoExcursion.getSeats() - tickets);
             excursionRepository.update(id, repoExcursion);
+            excursion = excursionRepository.findOne(id);
+            excursion.setId(id);
+            notifyClients(excursion);
         }
-        catch (ValidationException ex){
+        catch (ValidationException | RemoteException ex){
             throw new ServicesException(ex.getMessage());
+        }
+    }
+
+    public void notifyClients(Excursion excursion) throws RemoteException {
+        for (IObserver client:loggedClients.values()){
+            client.ticketReserved(excursion);
         }
     }
 

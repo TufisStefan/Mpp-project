@@ -2,10 +2,12 @@ package domain;
 
 import org.json.JSONObject;
 
+import java.sql.Time;
 import java.time.LocalTime;
 import java.util.Map;
+import java.util.Objects;
 
-public class Excursion extends Entity<Long>{
+public class Excursion extends Entity{
 
 
     private String objective;
@@ -13,6 +15,18 @@ public class Excursion extends Entity<Long>{
     private float price;
     private LocalTime time;
     private Long seats;
+    private String ormTime;
+
+    public String getOrmTime() {
+        return ormTime;
+    }
+
+    public void setOrmTime(String ormTime) {
+        this.ormTime = ormTime;
+        this.time = LocalTime.parse(ormTime);
+    }
+
+    public Excursion(){}
 
     public Excursion(String objective, String company, float price, LocalTime time, Long seats) {
         this.objective = objective;
@@ -21,7 +35,6 @@ public class Excursion extends Entity<Long>{
         this.time = time;
         this.seats = seats;
     }
-
 
     public String getObjective() {
         return objective;
@@ -92,4 +105,20 @@ public class Excursion extends Entity<Long>{
         this.price = obj.getFloat("price");
         this.seats = obj.getLong("seats");
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        Excursion excursion = (Excursion) o;
+        return Objects.equals(getId(), excursion.getId());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), getId());
+    }
+
+
 }

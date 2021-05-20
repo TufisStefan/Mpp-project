@@ -5,7 +5,7 @@ import domain.validators.ValidationException;
 
 import java.util.List;
 
-public interface CrudRepository <ID, E extends Entity<ID>>{
+public interface CrudRepository <ID, E extends Entity>{
 
     /**
      * @param id must not be null

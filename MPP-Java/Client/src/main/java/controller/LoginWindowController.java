@@ -36,7 +36,7 @@ public class LoginWindowController extends IController{
         String username = usernameTextField.getText();
         String password = passwordTextField.getText();
         try{
-            loggedUser = services.login(username, password);
+            loggedUser = services.login(username, password, MainController.getController());
             //new Alert(Alert.AlertType.CONFIRMATION, "Login Successful!").show();
             Stage loginStage = (Stage) loginButton.getScene().getWindow();
             loginStage.close();

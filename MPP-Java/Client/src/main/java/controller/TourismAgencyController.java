@@ -13,19 +13,27 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import services.IObserver;
 import services.ServicesException;
 
 import java.io.IOException;
+import java.io.Serializable;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-public class TourismAgencyController extends IController{
-
+public class TourismAgencyController extends IController {
+    private final MainController mainController = MainController.getController();
     ObservableList<Excursion> modelExcursion = FXCollections.observableArrayList();
     ObservableList<String> modelStartTime = FXCollections.observableArrayList();
     ObservableList<String> modelEndTime = FXCollections.observableArrayList();
     static TourismAgencyController controller;
+
+    public TourismAgencyController() throws RemoteException {
+    }
+
     public static TourismAgencyController getController(){
         return controller;
     }
@@ -116,6 +124,7 @@ public class TourismAgencyController extends IController{
 
         ticketsSpinner.setValueFactory(new SpinnerValueFactory.IntegerSpinnerValueFactory(1, 100));
 
+        mainController.setLists(modelExcursion);
     }
 
     public void updateTable(List<Excursion> allExcursions) {
@@ -159,10 +168,11 @@ public class TourismAgencyController extends IController{
         Long tickets = Long.valueOf(ticketsSpinner.getValue());
         try{
             services.addReservation(name, phone, tickets, excursion);
-            updateTable(services.findAllExcursions());
+            //updateTable(services.findAllExcursions());
         }
         catch (ServicesException ex){
             new Alert(Alert.AlertType.ERROR, ex.getMessage()).show();
         }
     }
+
 }

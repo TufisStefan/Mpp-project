@@ -11,4 +11,8 @@
             </props>
         </constructor-arg>
     </bean>
+    <bean id="tourismAgencyService" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+        <property name="serviceUrl" value="rmi://localhost:1099/TourismAgency"/>
+        <property name="serviceInterface" value="services.Services"/>
+    </bean>
 </beans>

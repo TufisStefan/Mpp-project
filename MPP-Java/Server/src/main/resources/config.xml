@@ -25,6 +25,10 @@
         </constructor-arg>
     </bean>
 
+    <bean id="excursionORMRepository" class="repository.ExcursionORMRepository">
+
+    </bean>
+
     <bean id="reservationDbRepository" class="repository.ReservationDBRepository">
         <constructor-arg index="0" ref="props"/>
         <constructor-arg index="1">
@@ -34,8 +38,15 @@
 
     <bean id="services" class="services.TourismAgencyServices">
         <constructor-arg index="0" ref="userDbRepository"/>
-        <constructor-arg index="1" ref="excursionDbRepository"/>
+        <constructor-arg index="1" ref="excursionORMRepository"/>
         <constructor-arg index="2" ref="reservationDbRepository"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+        <property name="serviceName" value="TourismAgency"/>
+        <property name="service" ref="services"/>
+        <property name="serviceInterface" value="services.Services"/>
+        <property name="servicePort" value="1099"/>
     </bean>
 
     <bean id="serverProps" class="java.util.Properties">

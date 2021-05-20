@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="domain">
+    <class name="domain.Excursion" table="Excursions">
+        <id name="id" column="id">
+            <generator class="increment"/>
+        </id>
+        <property name="objective" column="objective"/>
+        <property name="company" column="company"/>
+        <property name="ormTime" column="start_time"/>
+        <property name="price" column="price"/>
+        <property name="seats" column="seats"/>
+    </class>
+</hibernate-mapping>
